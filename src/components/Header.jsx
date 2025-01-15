@@ -14,7 +14,14 @@ function Header() {
 	const headerRef = useRef(null);
 	const navOpenRef = useRef(null);
 	const navCloseRef = useRef(null);
+	const navLinkRefs = useRef([]);
 	const [activeLinkId, setActiveLinkId] = useState(null);
+
+	const addToNavLinkRefs = (el) => {
+		if (el && !navLinkRefs.current.includes(el)) {
+			navLinkRefs.current.push(el);
+		}
+	};
 
 	useGSAP(
 		() => {
@@ -121,6 +128,9 @@ function Header() {
 				}
 				navOpenRef.current.addEventListener("click", animateNavOpen);
 				navCloseRef.current.addEventListener("click", animateNavClose);
+				navLinkRefs.current.forEach((el) => {
+					el.addEventListener("click", animateNavClose);
+				})
 			});
 		},
 		{
@@ -174,6 +184,7 @@ function Header() {
 							key={link.name}
 							className={`nav-link md:after:block after:h-px after:bg-teal-500 after:transition-[width] after:duration-300 ${ activeLinkId === link.name.toLowerCase() ? "text-teal-500 after:w-full max-md:bg-neutral-200" : "after:w-0 hover:after:w-full"} `}
 							href={link.href}
+							ref={addToNavLinkRefs}
 						>
 							{link.name}
 						</a>
