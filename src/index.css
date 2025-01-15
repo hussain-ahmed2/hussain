@@ -9,3 +9,9 @@
         @apply hover:text-teal-500 transition duration-300 ease-in-out max-md:py-3 max-md:hover:bg-neutral-200;
     }
 }
+
+@media (max-width: 35rem) {
+    html {
+        font-size: 0.75rem;
+    }
+}
