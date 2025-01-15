@@ -1,7 +1,7 @@
-import LanguagesSkills from "./LanguagesSkills";
-import FrontendDevelopmentSkills from "./FrontendDevelopmentSkills";
-import BackendDevelopmentSkills from "./BackendDevelopmentSkills";
-import ToolsAndPlatformsSkills from "./ToolsAndPlatformsSkills";
+import LanguagesSkills from '../components/LanguagesSkills'
+import FrontendDevelopmentSkills from "../components/FrontendDevelopmentSkills";
+import BackendDevelopmentSkills from "../components/BackendDevelopmentSkills";
+import ToolsAndPlatformsSkills from "../components/ToolsAndPlatformsSkills";
 import { useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -74,12 +74,12 @@ function About() {
 		<section
 			ref={aboutRef}
 			id="about"
-			className="mx-auto md:flex-row min-h-[calc(100vh-4rem)] text-neutral-700 px-5"
+			className="mx-auto md:flex-row min-h-[calc(100vh-4rem)] p-5 container"
 		>
-			<h2 ref={addToTitleRefs}  className="text-3xl font-bold text-neutral-800 mb-4">
+			<h2 ref={addToTitleRefs}  className="text-3xl font-bold mb-4">
 				About Me
 			</h2>
-			<p ref={addToRefs} className="text-neutral-700 mb-4 text-justify">
+			<p ref={addToRefs} className="mb-4 text-justify">
 				Hi, I{"'"}m <strong>Hussain Ahmed</strong>, a web developer with
 				a passion for AI and open-source projects. I graduated in
 				Computer Science and Engineering from Varendra University, where
@@ -115,7 +115,7 @@ function About() {
 				<strong>Other Skills:</strong> Responsive Design, Problem
 				Solving, Debugging, Teaching
 			</p>
-			<p ref={addToRefs} className="text-gray-600 font-roboto">
+			<p ref={addToRefs} className="text-neutral-600">
 				I aim to combine creativity and technical expertise to deliver
 				impactful solutions. Let’s create something amazing together!
 			</p>

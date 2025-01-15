@@ -1,15 +1,17 @@
-import About from "./components/About";
+import About from "./pages/About";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Home from "./components/Home";
+import Home from "./pages/Home";
+import Projects from "./pages/Projects";
 
 function App() {
 	return (
 		<div className="bg-neutral-200 min-h-screen">
 			<Header />
-			<div className="pt-16 max-w-6xl mx-auto">
+			<div className="pt-16 max-w-6xl mx-auto text-neutral-700">
 				<Home />
 				<About />
+				<Projects />
 			</div>
 			<Footer />
 		</div>

@@ -36,7 +36,7 @@ function Home() {
 		<section
 			ref={homeRef}
 			id="home"
-			className="mx-auto font-roboto flex flex-col items-center justify-evenly md:gap-4 md:flex-row min-h-[calc(100vh-4rem)] text-neutral-700"
+			className="mx-auto font-roboto container flex flex-col items-center justify-evenly md:gap-4 md:flex-row min-h-[calc(100vh-4rem)] p-5"
 		>
 			<div className="flex aspect-square items-center justify-center md:w-96 w-72 h-72 md:h-96 px-4">
 				<img

@@ -25,7 +25,7 @@ function LanguagesSkills() {
 	return (
 		<div
 			ref={containerRef}
-			className="flex flex-wrap relative border border-neutral-500 bg-neutral-50 rounded-md justify-center"
+			className="flex flex-wrap relative border border-neutral-300 bg-neutral-50 rounded-md justify-center"
 		>
 			<strong className="absolute -top-4 left-1/2 -translate-x-1/2 z-10 bg-gradient-to-b from-neutral-200 to-neutral-50 whitespace-nowrap">
 				Languages
