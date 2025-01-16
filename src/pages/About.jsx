@@ -38,7 +38,7 @@ function About() {
 					opacity: 1,
 					y: 0,
 					duration: 0.3,
-					delay: index * 0.2,
+					delay: index * 0.1,
 					ease: "power",
 					scrollTrigger: {
 						trigger: el,
@@ -59,7 +59,7 @@ function About() {
 					opacity: 1,
 					x: 0,
 					duration: 0.5,
-					delay: index * 0.5,
+					delay: index * 0.2,
 					ease: "power",
 					scrollTrigger: {
 						trigger: el,
