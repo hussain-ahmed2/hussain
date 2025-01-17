@@ -91,7 +91,7 @@ function Home() {
 							<FaGithub />
 						</a>
 						<a
-							href="http://in.linkedin.com/in/hussain-ahmed2"
+							href="http://in.linkedin.com/in/hussainahmed2"
 							target="_blank"
 							className="text-sky-700 hover:text-sky-500 transition duration-300 ease-in-out"
 							rel="noopener noreferrer"
