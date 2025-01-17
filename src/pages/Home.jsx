@@ -74,9 +74,7 @@ function Home() {
 						target="_blank"
 					>
 						resume
-						
-							<FaFileDownload />
-						
+						<FaFileDownload />
 					</a>
 				</div>
 				<div className="word flex items-center gap-2 mt-4 max-md:justify-center">
@@ -91,7 +89,7 @@ function Home() {
 							<FaGithub />
 						</a>
 						<a
-							href="http://in.linkedin.com/in/hussainahmed2"
+							href="https://www.linkedin.com/in/hussainahmed2/"
 							target="_blank"
 							className="text-sky-700 hover:text-sky-500 transition duration-300 ease-in-out"
 							rel="noopener noreferrer"
