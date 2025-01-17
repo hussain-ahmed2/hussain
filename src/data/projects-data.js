@@ -41,8 +41,8 @@ const projects = [
 		thumbnail: "images/portfolio.png",
 		description:
 			"This is a simple portfolio. Where users can see a persons portfolio.",
-		live: "https://deno-portfolio-by-hussain.netlify.app/",
-		repo: "https://github.com/hussain-ahmed2/deno-portfolio",
+		live: "https://portfolio-app-by-hussain.netlify.app/",
+		repo: "https://github.com/hussain-ahmed2/portfolio-app",
 	},
 	{
 		id: "6",
